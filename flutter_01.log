@@ -1,0 +1,68 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+SocketException: SocketException: Success (OS Error: Success, errno = 0), port = 0
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 2.10.2, on Ubuntu 20.04.3 LTS 5.4.0-100-generic, locale fr_FR.UTF-8)
+    • Flutter version 2.10.2 at /home/amagat/snap/flutter/common/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 097d3313d8 (il y a 12 jours), 2022-02-18 19:33:08 -0600
+    • Engine revision a83ed0e5e3
+    • Dart version 2.16.1
+    • DevTools version 2.9.2
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 32.0.0)
+    • Android SDK at /home/amagat/Android/Sdk
+    • Platform android-32, build-tools 32.0.0
+    • Java binary at: /snap/android-studio/119/android-studio/jre/bin/java
+    • Java version OpenJDK Runtime Environment (build 11.0.11+0-b60-7590822)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at google-chrome
+
+[✓] Android Studio (version 2021.1)
+    • Android Studio at /snap/android-studio/119/android-studio
+    • Flutter plugin version 65.0.2
+    • Dart plugin version 211.7798
+    • Java version OpenJDK Runtime Environment (build 11.0.11+0-b60-7590822)
+
+[!] Android Studio (version 2020.3)
+    • Android Studio at /var/www/html/amagat/mobile/android-studio
+    • Flutter plugin version 63.2.1
+    • Dart plugin version 203.8452
+    ✗ Unable to find bundled Java version.
+    • Try updating or re-installing Android Studio.
+
+[✓] Android Studio
+    • Android Studio at /home/amagat/android-studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 11.0.11+0-b60-7590822)
+
+[✓] VS Code (version 1.63.2)
+    • VS Code at /usr/share/code
+    • Flutter extension version 3.36.0
+
+[✓] Connected device (1 available)
+    • Chrome (web) • chrome • web-javascript • Google Chrome 97.0.4692.71
+
+[✓] HTTP Host Availability
+    • All required HTTP hosts are available
+
+! Doctor found issues in 1 category.
+```
